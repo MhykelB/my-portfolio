@@ -1,0 +1,16 @@
+.navBar {
+  display: flex;
+  background: $color1;
+  // outline: 2px solid rgb(126, 107, 107);
+  padding: 1rem 1rem;
+  .stacks {
+    display: flex;
+    gap: 2rem;
+  }
+  .social_links {
+    display: flex;
+    gap: 2rem;
+
+    margin-left: auto;
+  }
+}

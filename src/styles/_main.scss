@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Rubik:wght@300;400;500&display=swap");
+
+.App {
+  width: 80%;
+  // height: 100vh;
+  margin: 0rem auto;
+  box-sizing: border-box;
+  // font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  span {
+    color: $color3;
+    font-weight: 300;
+  }
+}

@@ -5,12 +5,14 @@
 // }
 let AppList = [
   {
-    appLink: "testing",
+    appLink: "https://google.com",
+    appTitle: "IP-address tracker",
     stack: ["testing stack1", "testing stack2"],
-    imageLink: "testing image",
+    imageLink: "teting image",
   },
   {
     appLink: "testing",
+    appTitle: "https://google.com",
     stack: ["testing stack1", "testing stack2"],
     imageLink: "testing image",
   },

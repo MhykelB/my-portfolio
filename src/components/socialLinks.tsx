@@ -12,7 +12,7 @@ interface Links {
 const LinksObj: Links = {
   whatsApp: "",
   gitHub: "https://github.com/MhykelB",
-  LinkedIn: "",
+  LinkedIn: "https://www.linkedin.com/in/michael-badmus-40712b136",
   twitter: "",
 };
 export const color: string = " rgb(28, 46, 64)";
@@ -20,16 +20,16 @@ export const size: string = "1.8rem";
 export const SocialLinks = () => {
   return (
     <div className="social_links">
-      <a href={`${LinksObj.whatsApp}`}>
+      <a href={`${LinksObj.whatsApp}`} target="_blank" rel="noreferrer">
         <AiOutlineWhatsApp size={size} color={color} />
       </a>
-      <a href={`${LinksObj.LinkedIn}`}>
+      <a href={`${LinksObj.LinkedIn}`} target="_blank" rel="noreferrer">
         <CiLinkedin size={size} color={color} />
       </a>
-      <a href={`${LinksObj.gitHub}`}>
+      <a href={`${LinksObj.gitHub}`} target="_blank" rel="noreferrer">
         <AiOutlineGithub size={size} color={color} />
       </a>
-      <a href={`${LinksObj.twitter}`}>
+      <a href={`${LinksObj.twitter}`} target="_blank" rel="noreferrer">
         <CiTwitter size={size} color={color} />
       </a>
     </div>

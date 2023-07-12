@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 interface Card {
   appLink: String;
+  appTitle: String;
   stack?: String[];
   imageLink: String;
 }
@@ -48,7 +49,11 @@ export const ProjectsSection = ({ list }: CardProps) => {
         {List.length > 0 ? (
           List.map((item: Card) => {
             return (
-              <CardObj appLink={item.appLink} imageLink={item.imageLink} />
+              <CardObj
+                appLink={item.appLink}
+                imageLink={item.imageLink}
+                appTitle={item.appTitle}
+              />
             );
           })
         ) : (
@@ -59,12 +64,13 @@ export const ProjectsSection = ({ list }: CardProps) => {
   );
 };
 
-const CardObj = ({ appLink, imageLink }: Card) => {
+const CardObj = ({ appLink, imageLink, appTitle }: Card) => {
   return (
     <div className="card">
-      <a href={`${appLink}`}>
-        <img src={`${imageLink}`} alt="" />
+      <a href={`${appLink}`} target="_blank" rel="noreferrer">
+        <img src={`${imageLink}`} alt="fgghh" />
       </a>
+      <p className="app-title">{appTitle}</p>
     </div>
   );
 };

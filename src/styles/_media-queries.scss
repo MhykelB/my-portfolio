@@ -34,11 +34,7 @@
   .info {
     font-size: 1.7rem;
   }
-  .card-section {
-    // background-color: black;
-    // outline: 2px solid black;
-  }
-  .card_list {
+  rd_list {
     grid-template-columns: repeat(1, 200px);
     row-gap: 2rem;
   }

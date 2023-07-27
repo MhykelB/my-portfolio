@@ -3,7 +3,9 @@
   box-sizing: border-box;
 }
 @import "./_colors";
+@import "./_font-fam";
 @import "./_main";
 @import "./_info";
 @import "./_navBar";
 @import "./_projects";
+@import "./media-queries";

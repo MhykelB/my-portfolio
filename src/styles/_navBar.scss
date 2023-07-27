@@ -1,4 +1,8 @@
 .navBar {
+  .icons {
+    width: 2rem;
+    height: 2rem;
+  }
   display: flex;
   background: $color1;
   // outline: 2px solid rgb(126, 107, 107);
@@ -10,7 +14,6 @@
   .social_links {
     display: flex;
     gap: 2rem;
-
     margin-left: auto;
   }
 }

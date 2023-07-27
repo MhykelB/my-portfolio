@@ -7,14 +7,26 @@ let AppList = [
   {
     appLink: "https://google.com",
     appTitle: "IP-address tracker",
-    stack: ["testing stack1", "testing stack2"],
+    stack: "Js",
     imageLink: "teting image",
   },
   {
-    appLink: "testing",
-    appTitle: "https://google.com",
-    stack: ["testing stack1", "testing stack2"],
-    imageLink: "testing image",
+    appLink: "https://google.com",
+    appTitle: "testing",
+    stack: "Js",
+    imageLink: "teting ima",
+  },
+  {
+    appLink: "https://google.com",
+    appTitle: "testing4",
+    stack: "Js",
+    imageLink: "teng image",
+  },
+  {
+    appLink: "https://hushzone.netlify.app",
+    appTitle: "hushZoneApp",
+    stack: "React",
+    imageLink: "hushzone.png",
   },
 ];
 

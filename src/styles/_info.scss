@@ -1,6 +1,6 @@
 .info {
-  height: 45vh;
-
+  height: 42vh;
+  // outline: 2px solid black;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -9,8 +9,12 @@
   font-size: xx-large;
   background: $color2;
   color: white;
-  // font-weight: 100;
+  font-weight: 100;
+  * {
+    font-weight: lighter;
+  }
   h1 {
     font-weight: lighter;
+    font-weight: 100;
   }
 }

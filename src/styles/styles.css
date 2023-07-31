@@ -185,7 +185,7 @@ button {
     flex: 1;
   }
   .info {
-    font-size: 1.7rem;
+    font-size: 1.64rem;
   }
   .card_list {
     grid-template-columns: repeat(1, 200px);

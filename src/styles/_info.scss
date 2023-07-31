@@ -1,6 +1,5 @@
 .info {
   height: 42vh;
-  // outline: 2px solid black;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -13,6 +12,7 @@
   * {
     font-weight: lighter;
   }
+
   h1 {
     font-weight: lighter;
     font-weight: 100;

@@ -99,7 +99,7 @@ button {
 }
 .buttons .toggle-off {
   color: rgb(169, 167, 164);
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1.2rem;
 }
 .buttons .toggle-off:hover {
@@ -149,7 +149,7 @@ button {
 .card a img {
   flex: 1;
   width: 100%;
-  height: 100%;
+  height: 180px;
   border-radius: 0.8rem 0.8rem 0rem 0em;
   -o-object-fit: cover;
      object-fit: cover;
@@ -187,7 +187,7 @@ button {
   .info {
     font-size: 1.7rem;
   }
-  rd_list {
+  .card_list {
     grid-template-columns: repeat(1, 200px);
     row-gap: 2rem;
   }

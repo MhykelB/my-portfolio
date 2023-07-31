@@ -42,7 +42,7 @@ button {
   }
   .toggle-off {
     color: rgb(169, 167, 164);
-    font-weight: 100;
+    font-weight: 300;
     font-size: 1.2rem;
     &:hover {
       color: $color3;
@@ -101,7 +101,7 @@ button {
       flex: 1;
       // outline: 1px solid rgb(230, 8, 8);
       width: 100%;
-      height: 100%;
+      height: 180px;
       border-radius: 0.8rem 0.8rem 0rem 0em;
       object-fit: cover;
     }

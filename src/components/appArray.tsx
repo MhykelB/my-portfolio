@@ -5,22 +5,16 @@
 // }
 let AppList = [
   {
-    appLink: "https://google.com",
+    appLink: "https://ip-address-tracka.netlify.app",
     appTitle: "IP-address tracker",
     stack: "Js",
-    imageLink: "teting image",
+    imageLink: "ip-address-tracker.jpg",
   },
   {
-    appLink: "https://google.com",
-    appTitle: "testing",
+    appLink: "https://advice-generatur.netlify.app/",
+    appTitle: "Advice-generator.jpg",
     stack: "Js",
-    imageLink: "teting ima",
-  },
-  {
-    appLink: "https://google.com",
-    appTitle: "testing4",
-    stack: "Js",
-    imageLink: "teng image",
+    imageLink: "advice-generator.jpg",
   },
   {
     appLink: "https://hushzone.netlify.app",
